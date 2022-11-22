@@ -1,3 +1,12 @@
-*{
+* {
     font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    padding: 1rem;
+}
+
+.pokemons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
