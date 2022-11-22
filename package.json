@@ -1,0 +1,25 @@
+{
+  "name": "interreactbootcamp",
+  "version": "1.0.0",
+  "description": "Projeto do BootCamp React da DIO.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaiquesimao/InterReactBootCamp.git"
+  },
+  "author": "kaiquesimao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaiquesimao/InterReactBootCamp/issues"
+  },
+  "homepage": "https://github.com/kaiquesimao/InterReactBootCamp#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
