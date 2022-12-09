@@ -1,13 +1,10 @@
 let pokemonList = document.getElementById("pokemonList");
 pokeApi
-  .getPokemons()
-  .then((pokemons = []) => {
-    const newList = pokemons.map((pokemon) => convertPokemonToHtml(pokemon));
-    const newHtml = newList.join("");
-    pokemonList.innerHTML += newHtml;
-    return pokemonList;
-  })
-  .catch((error) => console.log(error));
+    .getPokemons()
+    .then(
+        (pokemons = []) =>
+            (pokemonList.innerHTML += pokemons.map(convertPokemonToHtml).join(""))
+    );
 
 function convertPokemonToHtml(pokemon) {
   return `<li class="pokemon">
