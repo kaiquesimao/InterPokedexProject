@@ -3,7 +3,7 @@
 Projeto do BootCamp de JS da DIO/Inter.
 
 link do Github Pages:
-https://github.com/kaiquesimao/InterPokedexProject
+https://kaiquesimao.github.io/InterPokedexProject/
 
 # imagens
 
